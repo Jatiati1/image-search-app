@@ -1,0 +1,5 @@
+﻿# Private config (has your real Unsplash key) — do not commit
+config.js
+
+# Env files (if you ever add them)
+.env

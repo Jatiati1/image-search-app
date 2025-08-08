@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search World</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Image Search App</h1>
+
+    <form>
+      <input type="text" id="search-input" placeholder="Search for images" />
+      <button id="search-button">Search</button>
+    </form>
+
+    <div class="search-results">
+      <!-- Default sample images (optional) -->
+      <div class="search-result">
+        <img
+          src="https://slp-statics.astockcdn.net/static_assets/staging/24winter/home/curated-collections/card-1.jpg?width=580&format=webp"
+          alt="Mountains under the sky"
+        />
+        <a
+          href="https://slp-statics.astockcdn.net/static_assets/staging/24winter/home/curated-collections/card-1.jpg?width=580&format=webp"
+          target="_blank"
+          >Mountains under the sky</a
+        >
+      </div>
+    </div>
+
+    <button id="show-more-button">Show more</button>
+
+    <!-- Load config before script -->
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
